@@ -288,12 +288,7 @@
 <div class="section-space"></div>
         <h2>Rolagens</h2>
         <div class='sheet-2colrow'>
-            <th style="text-align:left;"><span>Atributo</span></th>
-            <th><input type="number" name="attr_atributo" value="0"/></th>
-            <th style="text-align:left;"><span>Especialização</span></th>
-            <th><input type="number" name="attr_especializacao" value="0"/></th>
-            <th style="text-align:left;"><span>Bônus</span></th>
-            <th><input type="number" name="attr_bonus" value="0"/></th>
-            <input type="number" name="attr_dicepool" value="(@{atributo}+@{especializacao}+@{bonus})" disabled="true" />
-            <button type='roll' value='/roll @{dicepool}d6!>4' name='roll_dices'></button>
+            <th style="text-align:left;"><span>Quantidade de Dados</span></th>
+            <th><input type="number" name="attr_dicepool" value="0"/></th>
+            <button type='roll' value='/roll {@{dicepool}d6!}>4' name='roll_dices'></button>
         </div>   
